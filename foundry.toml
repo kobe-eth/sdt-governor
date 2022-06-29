@@ -1,0 +1,10 @@
+[default]
+src = 'contracts'
+out = 'out'
+test = 'test/'
+libs = ['lib']
+remappings = [
+    'ds-test/=lib/ds-test/src/',
+    '@openzeppelin/=lib/openzeppelin-contracts/'
+    ]
+fuzz_runs       = 10_000

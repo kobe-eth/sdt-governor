@@ -1,0 +1,21 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "dependencies": {
+    "@nomiclabs/hardhat-vyper": "^3.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "ethers": "^5.5.3",
+    "ethers-eip712": "^0.2.0",
+    "hardhat": "^2.9.9",
+    "ts-node": "^10.8.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.13"
+  },
+  "scripts": {
+    "cz": "cz",
+    "build": "hardhat compile --config ./hardhat.config.ts && forge build",
+    "lint": "prettier --write \"contracts/**/**/*.sol\" && prettier --write \"test/**/**/*.sol\""
+  }
+}

@@ -1,0 +1,17 @@
+cache/
+out/
+node_modules/
+
+# Hardhat
+artifacts-hh
+cache-hh
+
+DS_Store
+cache/
+build/
+reports/
+.DS_STORE
+__pycache__
+.history
+.hypothesis/
+.env%      
